@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Lack';
+        src: url('../assets/webfonts/Lack-Regular.woff') format('woff');
+    }
+}

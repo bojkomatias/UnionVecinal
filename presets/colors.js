@@ -6,7 +6,7 @@ module.exports = {
         colors: {
             current: 'currentColor',
             base: colors.neutral,
-            primary: colors.pink,
+            primary: colors.teal,
             secondary: colors.rose,
         },
     },
