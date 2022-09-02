@@ -1,6 +1,6 @@
 const Carta = () => {
     return (
-        <article className="prose mx-auto mt-12 p-2 prose-h1:text-center prose-h1:underline prose-h2:bg-base-900 prose-h2:text-lg prose-h2:text-base-100 prose-h3:text-center md:prose-sm xl:prose-xl">
+        <article className="prose mx-auto mt-12 p-2 prose-h1:text-center prose-h1:underline prose-h2:bg-neutral-900 prose-h2:text-lg prose-h2:text-neutral-100 prose-h3:text-center md:prose-sm xl:prose-xl">
             <h3>PRINCIPIOS VECINALISTAS</h3>
             <ul>
                 <li>
@@ -53,7 +53,7 @@ const Carta = () => {
                     local.
                 </li>
             </ul>
-            <h3>BASES DE ACCIÓN POLÍTICA</h3>
+            <h3>neutralS DE ACCIÓN POLÍTICA</h3>
             <p>
                 La Unión Vecinal reafirma sus fundamentos que le dieran origen
                 como Vecinalismo en la Colina de la Esperanza, enalteciendo como
@@ -148,7 +148,7 @@ const Carta = () => {
                 Podrán ser afiliados a la Unión Vecinal los ciudadanos con
                 domicilio electoral en la ciudad de Libertador San Martín,
                 Departamento Diamante, Provincia de Entre Ríos, que adhieran a
-                la ideología del vecinalismo, sus principios y bases de acción
+                la ideología del vecinalismo, sus principios y neutrals de acción
                 política; que peticionen en forma libre y expresamente afiliarse
                 ante el órgano partidario, debiendo acreditar su identidad con
                 el Documento Nacional de Identidad y dar cumplimiento a los
@@ -258,7 +258,7 @@ const Carta = () => {
             <ol type="a">
                 <li>
                     Conocer, respetar y cumplir esta Carta Orgánica, los
-                    principios partidarios y las bases de acción política, las
+                    principios partidarios y las neutrals de acción política, las
                     resoluciones de las Asambleas y del Consejo Directivo.
                 </li>
                 <li>

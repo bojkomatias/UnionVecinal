@@ -1,6 +1,6 @@
 function map() {
     return (
-        <div className="prose mx-auto my-12 prose-p:font-light lg:my-20">
+        <div className="prose mx-auto my-12 lg:text-lg lg:my-20">
             <p>
                 Libertador San Martín es un municipio distribuido entre los
                 distritos Costa Grande y Palmar del departamento Diamante en la
