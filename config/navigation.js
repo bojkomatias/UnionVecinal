@@ -19,14 +19,7 @@ import {
 } from '@heroicons/react/outline'
 
 export const footerNavigation = {
-    main: [
-        { name: 'About', href: '#' },
-        { name: 'Blog', href: '#' },
-        { name: 'Jobs', href: '#' },
-        { name: 'Press', href: '#' },
-        { name: 'Accessibility', href: '#' },
-        { name: 'Partners', href: '#' },
-    ],
+    main: [],
     social: [
         {
             name: 'Facebook',
@@ -80,8 +73,7 @@ export const footerNavigation = {
 }
 
 export const navigation = [
-    { name: 'Información', href: '/info' },
+    // { name: 'Información', href: '/info' },
     { name: 'Carta Orgánica', href: '/carta' },
     { name: 'Mapa', href: '/map' },
-    { name: 'Historia', href: '/history' },
 ]

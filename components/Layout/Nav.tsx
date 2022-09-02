@@ -14,7 +14,7 @@ function classNames(...classes: any) {
 
 export default function Example() {
     return (
-        <Popover className="relative bg-base-200">
+        <Popover className="relative bg-base-200 shadow">
             <div
                 className="pointer-events-none absolute inset-0 z-30 shadow"
                 aria-hidden="true"

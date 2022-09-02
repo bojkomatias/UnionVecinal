@@ -3,7 +3,7 @@ module.exports = {
     presets: [],
     theme: {
         fontFamily: {
-            sans: ['Lack', ...defaultTheme.fontFamily.sans],
+            sans: ['Raleway', ...defaultTheme.fontFamily.sans],
             serif: [...defaultTheme.fontFamily.serif],
             mono: [...defaultTheme.fontFamily.mono],
         },
