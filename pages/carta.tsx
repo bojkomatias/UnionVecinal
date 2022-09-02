@@ -1,5 +1,5 @@
 import React from 'react'
-import Carta from '../components/Carta'
+import Carta from '../components/Contact/Carta'
 
 function carta() {
     return (

@@ -3,11 +3,11 @@ const colors = require('tailwindcss/colors')
 module.exports = {
     presets: [],
     theme: {
-        colors: {
-            current: 'currentColor',
-            base: colors.neutral,
-            primary: colors.teal,
-            secondary: colors.rose,
+        extend: {
+            colors: {
+                primary: '#05807E',
+                secondary: '#9C53B0',
+            },
         },
     },
 }

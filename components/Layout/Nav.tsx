@@ -14,7 +14,7 @@ function classNames(...classes: any) {
 
 export default function Example() {
     return (
-        <Popover className="relative bg-base-200">
+        <Popover className="relative bg-neutral-100 shadow">
             <div
                 className="pointer-events-none absolute inset-0 z-30 shadow"
                 aria-hidden="true"
@@ -33,7 +33,7 @@ export default function Example() {
                         />
                     </a>
                     <div className="-my-2 -mr-2 md:hidden">
-                        <Popover.Button className="text-gray-400 hover:bg-gray-100 hover:text-gray-500 inline-flex items-center justify-center rounded bg-base-100 p-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
+                        <Popover.Button className="text-gray-400 hover:bg-gray-100 hover:text-gray-500 inline-flex items-center justify-center rounded bg-neutral-100 p-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
                             <span className="sr-only">Open menu</span>
                             <MenuIcon className="h-6 w-6" aria-hidden="true" />
                         </Popover.Button>
@@ -47,11 +47,11 @@ export default function Example() {
                                 >
                                     <a
                                         href={item.href}
-                                        className="text-base font-medium text-base-700 group-hover:text-base-900"
+                                        className="text-lg font-regular uppercase text-neutral-700 group-hover:text-primary"
                                     >
                                         {item.name}
                                     </a>
-                                    <span className="absolute bottom-0 left-0 w-0 border-b-4 border-primary-700 transition-all duration-500 group-hover:w-full"></span>
+                                    <span className="absolute bottom-0 left-0 w-0 border-b-2 border-secondary transition-all duration-500 group-hover:w-full"></span>
                                 </div>
                             ))}
                         </Popover.Group>
@@ -70,10 +70,10 @@ export default function Example() {
             >
                 <Popover.Panel
                     focus
-                    className="absolute inset-x-0 top-0 z-30 origin-top-right transform p-2 transition md:hidden"
+                    className="absolute inset-x-0 top-0 z-40 origin-top-right transform p-2 transition md:hidden"
                 >
-                    <div className="divide-gray-50 ring-black divide-y-2 rounded bg-base-100 shadow-lg ring-1 ring-opacity-5">
-                        <div className="px-5 pt-5 pb-6 sm:pb-8">
+                    <div className=" ring-black divide-y-2 rounded bg-neutral-100 shadow-lg ring-1 ring-opacity-5">
+                        <div className="px-5 pt-5 pb-4">
                             <div className="flex items-center justify-between">
                                 <div>
                                     <Image
@@ -84,7 +84,7 @@ export default function Example() {
                                     />
                                 </div>
                                 <div className="-mr-2">
-                                    <Popover.Button className="text-gray-400 hover:bg-gray-100 hover:text-gray-500 inline-flex items-center justify-center rounded bg-base-100 p-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
+                                    <Popover.Button className="text-gray-400 hover:bg-gray-100 hover:text-gray-500 inline-flex items-center justify-center rounded bg-neutral-100 p-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
                                         <span className="sr-only">
                                             Close menu
                                         </span>
@@ -95,20 +95,23 @@ export default function Example() {
                                     </Popover.Button>
                                 </div>
                             </div>
-                            <div className="mt-6 sm:mt-8">
-                                <nav></nav>
-                            </div>
+                           
                         </div>
                         <div className="py-6 px-5">
-                            <div className="grid grid-cols-2 gap-4">
+                            <div className="flex flex-col items-start gap-4">
                                 {navigation.map((item) => (
+                                    <div
+                                    key={item.name}
+                                    className="cursor pointer group relative"
+                                >
                                     <a
-                                        key={item.name}
                                         href={item.href}
-                                        className="text-gray-500 hover:text-gray-900 text-base font-medium"
+                                        className="text-lg font-regular uppercase text-neutral-700 group-hover:text-primary"
                                     >
                                         {item.name}
                                     </a>
+                                    <span className="absolute bottom-0 left-0 w-0 border-b-2 border-secondary transition-all duration-500 group-hover:w-full"></span>
+                                </div>
                                 ))}
                             </div>
                         </div>

@@ -2,15 +2,9 @@ import Image from 'next/image'
 
 export default function Page() {
     return (
-        <div className="mx-auto my-16 min-h-screen max-w-7xl  px-4 sm:my-24 sm:px-6">
+        <div className="mx-auto my-10 min-h-screen max-w-7xl  px-4 md:my-20 md:px-6">
             <div className=" text-center">
-                <p className="p-10">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam illum temporibus inventore consectetur adipisci ad
-                    repellat velit veniam quidem, error totam sunt culpa earum
-                    illo aspernatur autem, quos accusamus tempora.
-                </p>
-                <div className="relative">
+                <div className="relative mx-auto lg:w-3/4">
                     <div className="">
                         <Image
                             width={1920}
@@ -28,6 +22,22 @@ export default function Page() {
                             alt="Logo"
                         />
                     </div>
+                </div>
+                <div className="prose mx-auto my-12 lg:text-2xl text-lg">
+                    <p>Somos una organización ideológicamente autonómica e
+                    independiente. Qué significa esto? Que no dependemos de los
+                    grandes partidos nacionales sino que desarrollamos nuestras
+                    propias ideas.</p>
+                    
+                    <p>Somos una Unión que promueve la democracia
+                    participativa , abierta e inclusiva en la que la voz de los
+                    vecinos es la que debe ser escuchada.</p> 
+
+                   <p>Porqué vecinal? Porque el vecino de Libertador San
+                    Martín es el centro de todas nuestras acciones. Porque
+                    creemos firmemente que quién construye nuestra localidad día
+                    a día debe ser el principal destinatario de todas nuestras
+                    políticas.</p> 
                 </div>
             </div>
         </div>
