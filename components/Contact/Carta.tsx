@@ -53,7 +53,7 @@ const Carta = () => {
                     local.
                 </li>
             </ul>
-            <h3>neutralS DE ACCIÓN POLÍTICA</h3>
+            <h3>BASES DE ACCIÓN POLÍTICA</h3>
             <p>
                 La Unión Vecinal reafirma sus fundamentos que le dieran origen
                 como Vecinalismo en la Colina de la Esperanza, enalteciendo como
@@ -148,7 +148,7 @@ const Carta = () => {
                 Podrán ser afiliados a la Unión Vecinal los ciudadanos con
                 domicilio electoral en la ciudad de Libertador San Martín,
                 Departamento Diamante, Provincia de Entre Ríos, que adhieran a
-                la ideología del vecinalismo, sus principios y neutrals de acción
+                la ideología del vecinalismo, sus principios y bases de acción
                 política; que peticionen en forma libre y expresamente afiliarse
                 ante el órgano partidario, debiendo acreditar su identidad con
                 el Documento Nacional de Identidad y dar cumplimiento a los
@@ -258,7 +258,7 @@ const Carta = () => {
             <ol type="a">
                 <li>
                     Conocer, respetar y cumplir esta Carta Orgánica, los
-                    principios partidarios y las neutrals de acción política, las
+                    principios partidarios y las bases de acción política, las
                     resoluciones de las Asambleas y del Consejo Directivo.
                 </li>
                 <li>
