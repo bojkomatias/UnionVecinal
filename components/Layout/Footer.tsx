@@ -32,8 +32,17 @@ export default function Footer() {
                         </a>
                     ))}
                 </div>
-                <p className="text-neutral mt-8 text-center text-neutral-100">
+                <p className="mt-8 text-center text-lg text-neutral-100">
                     &copy; 2022 Unión Vecinal. Libertador San Martín.
+                </p>
+                <p className="mt-4 text-center text-xs font-light uppercase text-neutral-300">
+                    Desarrollado por{' '}
+                    <a
+                        href="https://matiasbojko.com"
+                        className="font-semibold underline-offset-4 brightness-125 hover:underline"
+                    >
+                        Matias Bojko
+                    </a>
                 </p>
             </div>
         </footer>

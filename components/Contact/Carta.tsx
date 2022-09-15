@@ -259,8 +259,7 @@ const Carta = () => {
                 <li>
                     Conocer, respetar y cumplir esta Carta Orgánica, los
                     principios partidarios y las bases de acción política, las
-                    resoluciones de las Asambleas y del Consejo Directivo.
-                </li>
+                    resoluciones de las Asambleas y del Consejo Directivo.                </li>
                 <li>
                     Mantener una actitud de lealtad, compromiso y una conducta
                     ética en relación con los principios vecinalistas.
