@@ -40,7 +40,11 @@ export const footerNavigation = {
 }
 
 export const navigation = [
-    // { name: 'Información', href: '/info' },
     { name: 'Carta Orgánica', href: '/carta' },
     { name: 'Mapa', href: '/map' },
+    {
+        name: 'Unite!',
+        href: '/join',
+        class: 1,
+    },
 ]
